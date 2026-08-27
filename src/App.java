@@ -25,6 +25,25 @@ public class App {
             numeros[i] = numero;
         }
 
+        int numeroBuscado;
+
+        System.out.println("Ingrese el numero que desea buscar:");
+        numeroBuscado = entrada.nextInt();
+
+        boolean encontrado = false;
+
+        for (int i = 0; i < 15; i++) {
+
+            if (numeros[i] == numeroBuscado) {
+                System.out.println("Numero encontrado en el indice: " + i);
+                encontrado = true;
+            }
+        }
+
+        if (!encontrado) {
+            System.out.println("El numero no se encuentra en el vector.");
+        }
+
         System.out.println("Vector completo:");
 
         for (int i = 0; i < 15; i++) {
