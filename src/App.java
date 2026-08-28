@@ -32,17 +32,33 @@ public class App {
 
         boolean encontrado = false;
 
+        int mayor = numeros[0];
+        int menor = numeros[0];
+
+
         for (int i = 0; i < 15; i++) {
 
             if (numeros[i] == numeroBuscado) {
                 System.out.println("Numero encontrado en el indice: " + i);
                 encontrado = true;
             }
+                
+            if (numeros[i] > mayor) {
+                mayor = numeros[i];
+            }
+
+            if (numeros[i] < menor) {
+                menor = numeros[i];
+            }
+            
         }
 
         if (!encontrado) {
             System.out.println("El numero no se encuentra en el vector.");
         }
+
+        System.out.println("Numero mayor: " + mayor);
+        System.out.println("Numero menor: " + menor);
 
         System.out.println("Vector completo:");
 
