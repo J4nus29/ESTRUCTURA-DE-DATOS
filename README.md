@@ -1,18 +1,45 @@
-## Getting Started
+# Estructura de Datos - Vectores en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Objetivo
 
-## Folder Structure
+Practicar operaciones con vectores de números enteros en Java mediante la búsqueda de valores, determinación del mayor y menor, identificación de múltiplos, cálculo de la suma, cálculo del promedio y creación de un nuevo vector con los valores superiores al promedio.
 
-The workspace contains two folders by default, where:
+## Descripción del proyecto
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Este programa trabaja con un vector de 15 números enteros y permite realizar las siguientes operaciones:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Crear y llenar un vector de 15 números enteros.
+2. Validar que los números ingresados estén entre 10 y 100.
+3. Buscar un número dentro del vector y mostrar los índices donde se encuentra.
+4. Determinar el número mayor y el número menor.
+5. Identificar los múltiplos de un número ingresado por el usuario.
+6. Calcular la suma de todos los valores del vector.
+7. Calcular el promedio de los valores.
+8. Crear un nuevo vector con los números mayores que el promedio.
+9. Mostrar la cantidad de números que están por encima del promedio.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Tecnologías utilizadas
 
-## Dependency Management
+- Java
+- JDK Eclipse Temurin 21
+- Visual Studio Code
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Evidencias
+
+### Capturas de pantalla de la consola
+
+A continuación se muestra la ejecución del programa y el resultado de los puntos solicitados:
+
+![Evidencia de consola](evidencias/evidencia.png)
+
+### Video de sustentación
+
+Enlace al video:
+
+**Pendiente de agregar**
+
+## Repositorio de GitHub
+
+Repositorio público:
+
+https://github.com/J4nus29/ESTRUCTURA-DE-DATOS
