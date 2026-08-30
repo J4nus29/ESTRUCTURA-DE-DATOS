@@ -36,7 +36,7 @@ A continuación se muestra la ejecución del programa y el resultado de los punt
 
 Enlace al video:
 
-**Pendiente de agregar**
+[Ver video de sustentación](https://drive.google.com/file/d/1xDGoLflnQggbH3ftaYKJu-J8s1cyU3wS/view?usp=sharing)
 
 ## Repositorio de GitHub
 
